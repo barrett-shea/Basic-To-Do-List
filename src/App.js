@@ -8,7 +8,7 @@ import RemoveTop from './RemoveTop'
 import RemoveBottom from './RemoveBottom'
 
 export default function App() {
-  const [todos, setTodos] = useState(["item 1", "item 2", "item 3"]); //lift state up to common ancestor
+  const [todos, setTodos] = useState(["Task 1", "Task 2", "Task 3"]); //lift state up to common ancestor
   return (
     <>
       <h1>Basic To Do List</h1>
